@@ -1,13 +1,13 @@
 # FIFO Verification using UVM (SystemVerilog)
 
-## 📌 Overview
+## Overview
 This project demonstrates the **design and verification of a synchronous FIFO** using **SystemVerilog and UVM (Universal Verification Methodology)**.  
 The objective is to verify correct FIFO functionality such as **data integrity, ordering, full/empty behavior, and read/write operations** using a structured UVM-based testbench.
 
 
 ---
 
-## 🧠 FIFO Design Specification
+## FIFO Design Specification
 
 ### Design Features
 - Synchronous FIFO
@@ -34,7 +34,7 @@ The objective is to verify correct FIFO functionality such as **data integrity, 
 
 ---
 
-## 🧪 Verification Methodology
+## Verification Methodology
 
 The verification environment is implemented using **UVM**, following standard layered testbench architecture.
 
@@ -51,21 +51,7 @@ The verification environment is implemented using **UVM**, following standard la
 
 ---
 
-## 🏗 Testbench Architecture
-TOP
-└── TEST
-└── ENV
-├── AGENT
-│ ├── SEQUENCER
-│ ├── DRIVER
-│ └── MONITOR
-└── SCOREBOARD
-└── DUT (FIFO)
-
-
----
-
-## ✔ Features Verified
+## Features Verified
 
 - ✔ FIFO write operation
 - ✔ FIFO read operation
@@ -77,7 +63,7 @@ TOP
 
 ---
 
-## 🧮 Scoreboard & Reference Model
+## Scoreboard & Reference Model
 
 - Uses a **queue-based reference model**
 - Stores expected write data
@@ -86,7 +72,7 @@ TOP
 
 ---
 
-## 📊 Functional Coverage
+## Functional Coverage
 
 The following coverage points are implemented:
 
